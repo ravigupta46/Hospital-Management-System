@@ -16,17 +16,20 @@ A console-based Hospital Management System developed using Java and JDBC with My
 - IntelliJ IDEA / Eclipse
 
 ## 📂 Project Structure
+```text
 src/
 ├── Main.java
 └── HospitalManagementSystem/
-├── Doctor.java
-├── Patient.java
-└── HospitalManagementSystem.java
+    ├── DatabaseConnection.java
+    ├── Doctor.java
+    ├── HospitalManagementSystem.java
+    └── Patient.java
+```
 
 ## 🗄 Database Setup
 1. Create a MySQL database
 2. Create required tables
-3. Update database credentials in the source code
+3. Update database credentials in `DatabaseConnection.java`
 
 ## ▶️ How to Run
 1. Clone the repository
